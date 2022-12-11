@@ -1,0 +1,45 @@
+.experiencia {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 50px;
+}
+
+.titulo {
+    font-size: 7rem;
+    word-break: break-all;
+    line-height: 1;
+    text-transform: uppercase;
+    max-width: 4ch;
+    color: var(--cinza-escuro);
+}
+
+.experiencia-texto p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #525252;
+}
+
+.experiencia-texto strong {
+    color: #141414;
+}
+
+@media (max-width: 800px){
+    .experiencia {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .titulo {
+        font-size: 3rem;
+        text-transform: capitalize;
+        max-width: initial!important;
+        color: var(--preto);
+    }
+}
+
+@media (max-width: 600px) {
+    .experiencia-texto p {
+        font-size: 1.175rem;
+    }
+}

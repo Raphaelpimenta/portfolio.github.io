@@ -1,0 +1,54 @@
+.projetos-bg {
+    padding: 2rem;
+    background-color: var(--azul);
+    margin-bottom: 50px;
+}
+
+.projetos-bg h2 {
+    margin-bottom: 30px;
+    color: var(--cinza);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.projetos {
+    display: flex;
+    gap: 40px;
+    padding: 0 20px 20px 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.projetos li {
+    flex: 1;
+    min-width: 280px;
+}
+
+.projetos img {
+    margin-bottom: 20px;
+}
+
+.projetos p {
+    margin-bottom: 30px;
+    color: var(--cinza);
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.projetos p strong {
+    color: var(--branco);
+    letter-spacing: 1px;
+}
+
+.link {
+    color: var(--amarelo);
+}
+
+.btn-projeto {
+    text-transform: uppercase;
+    background-color: var(--amarelo);
+}
+

@@ -1,0 +1,47 @@
+.introducao-bg {
+    background-color: var(--azul);
+    margin-top: 80px;
+    padding: 2rem 0px;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.intro-texto h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: var(--branco);
+}
+
+.intro-texto p {
+    color: var(--cinza);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.redes {
+    display: flex;
+    gap: 15px;
+    color: var(--amarelo);
+}
+
+.btn-1 a,
+.btn-2 a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 800px){
+    .introducao {
+        grid-template-columns: 1fr;
+    }
+
+    .intro-img {
+        display: none;
+    }
+}

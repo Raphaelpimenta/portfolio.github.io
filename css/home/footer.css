@@ -1,0 +1,27 @@
+.footer-bg {
+    background-color: var(--preto);
+    padding: 2rem;
+    margin-top: 50px;
+}
+
+.footer h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--branco);
+    margin-bottom: 50px;
+}
+
+.contatos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.contatos a {
+    color: var(--preto);
+    background-color: var(--amarelo);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

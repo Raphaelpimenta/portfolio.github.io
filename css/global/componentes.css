@@ -1,0 +1,46 @@
+.container {
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root {
+    --preto: #000000;
+    --azul: #14213d;
+    --amarelo: #fca311;
+    --cinza: #e5e5e5;
+    --cinza-escuro: #b3b3b3;
+    --branco: #ffffff;
+}
+
+.botao {
+    padding: 10px 15px;
+    border: 2px solid var(--amarelo);
+    border-radius: 5px;
+    display: block;
+    max-width: max-content;
+}
+
+.botao:hover {
+    border: 2px solid var(--preto);
+    background-color: var(--branco);
+    color: var(--preto);
+    transition: .4s;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 2px;
+    background-color: var(--cinza);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 1px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: var(--amarelo);
+}
