@@ -41,7 +41,7 @@
     padding: 1rem;
 }
 
-.header-menu a:hover {
+.menu-item:hover {
     color: var(--amarelo);
 }
 
