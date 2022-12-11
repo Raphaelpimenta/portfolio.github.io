@@ -41,6 +41,10 @@
     padding: 1rem;
 }
 
+.header-menu a:hover {
+    color: var(--amarelo);
+}
+
 .cv {
     color: var(--amarelo);
     border: 1px solid var(--amarelo);
