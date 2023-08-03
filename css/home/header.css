@@ -129,3 +129,9 @@
         top: -7px;
     }
 }
+
+@media (max-width: 500px){
+    .logo {
+        padding-left: 10px;
+    }
+}
