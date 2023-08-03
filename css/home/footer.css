@@ -57,6 +57,9 @@
 }
 
 @media (max-width: 500px){
+    .footer {
+        padding: 25px;
+    }
     .contato {
         display: block;
     }
