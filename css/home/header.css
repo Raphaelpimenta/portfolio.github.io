@@ -50,9 +50,9 @@
     left: 0;
 }
 
-/* .header-menu li a.ativado::after {
+.header-menu li a.ativado::after {
     width: 100%;
-} */
+}
 
 #btn-mobile {
     display: none;
