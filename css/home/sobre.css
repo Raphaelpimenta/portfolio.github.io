@@ -4,25 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-}
-
-.sobre img {
-    border-radius: 6px;
-}
-
-.conteudo span {
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #0077b6;
-    margin-bottom: 10px;
-    letter-spacing: 1px;
-    display: block;
-}
-
-.conteudo h3 {
-    line-height: 1.15;
-    font-size: 2rem;
-    margin-bottom: 15px;
+    gap: 30px;
 }
 
 .conteudo p {
